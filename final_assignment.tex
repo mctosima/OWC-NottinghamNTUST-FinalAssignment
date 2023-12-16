@@ -11,6 +11,7 @@
 \usepackage{xcolor} % for setting colors
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{hyperref}
 
 \lstset{
   language=Matlab,
@@ -45,7 +46,7 @@
 \date{\today}
 \maketitle
 
-This document, including all graphics, code and content can be accessed from 
+This \LaTeX\  document, including all graphics, code and content can be accessed from \href{https://github.com/mctosima/OWC-NottinghamNTUST-FinalAssignment/tree/main}{this repository}.
 
 \section{Visible Light Communication}
 	In this problem, we want to simulate the 3D receieved power based on the given condition below (The variable in the MATLAB script denoted in the bracket):
@@ -207,7 +208,11 @@ This document, including all graphics, code and content can be accessed from
         \item The difference when \texttt{ml = 11} between the center and the corner is 6.096071 dB
     \end{itemize}
 
-    I also tried to animate the changes and save it as .gif files that can be seen on this link dbm | Watt.
+    I also tried to animate the changes and save it as .gif files that can be seen on this link below:
+    \begin{itemize}
+        \item \href{https://raw.githubusercontent.com/mctosima/OWC-NottinghamNTUST-FinalAssignment/main/3D_power_curve_Watt.gif}{Watt}
+        \item \href{https://raw.githubusercontent.com/mctosima/OWC-NottinghamNTUST-FinalAssignment/main/3D_power_curve_dBm.gif}{dBm}
+    \end{itemize}
     
     
 \section{Free Space Optical Wireless Communications}
